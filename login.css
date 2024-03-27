@@ -1,0 +1,92 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.login{
+    width: 382px;
+    overflow:hidden ;
+    margin: 20 0 0 450px;
+    padding: 80px;
+    background:darkblue;
+    border-radius: 15px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+
+h2{
+    text-align: center;
+    color:red;
+    padding: 20px;
+
+}
+
+label{
+    color:red;
+    font-size: 17px;
+}
+#Uname{
+    width: 300px;
+    height:30px;
+    border: none;
+    border-radius: 3px;
+    padding-left: 8px;
+}
+#log{
+    width: 300px;
+    height: 30px;
+    border: none;
+    border-radius: 17px;
+    padding-left: 7px;
+    color:blue;
+
+}
+
+span{
+    color:#fff;
+    font-size: 17px;
+
+}
+
+a{
+    float:right;
+}
+
+.topnav{
+    background-color:darkviolet;
+    overflow: hidden;
+}
+
+.topnav a{
+    float:left;
+    color:#fff;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+.topnav a:hover{
+    background-color: darkorchid;
+    color:black;
+}
+
+.topnav a.active{
+    background-color: blue;
+    color:#fff;
+}
+
+.bg-img {
+    background-image: url("images/images\ \(1\).jpg");
+    min-height: 100vh;
+    background-size:cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    object-fit: contain ;
+    padding: 0px 0px 0px 0px;
+}
